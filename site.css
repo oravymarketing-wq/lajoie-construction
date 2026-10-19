@@ -4,14 +4,14 @@
 
 @font-face {
   font-family: "Archivo";
-  src: url("../fonts/archivo.woff2") format("woff2-variations"), url("../fonts/archivo.woff2") format("woff2");
+  src: url("archivo.woff2") format("woff2-variations"), url("archivo.woff2") format("woff2");
   font-weight: 100 900;
   font-stretch: 62% 125%;
   font-display: swap;
 }
 @font-face {
   font-family: "Plex Mono";
-  src: url("../fonts/plex-mono-500.woff2") format("woff2");
+  src: url("plex-mono-500.woff2") format("woff2");
   font-weight: 500;
   font-display: swap;
 }
