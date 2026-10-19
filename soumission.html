@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="fr-CA" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Demander une soumission gratuite | Lajoie Construction</title>
+<meta name="description" content="Décrivez votre projet de rénovation ou de construction en deux minutes. Lajoie Construction vous rappelle. 450 803-6255.">
+<link rel="canonical" href="https://lajoieconstruction.com/soumission.html">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_CA">
+<meta property="og:site_name" content="Lajoie Construction">
+<meta property="og:title" content="Demander une soumission gratuite | Lajoie Construction">
+<meta property="og:description" content="Décrivez votre projet de rénovation ou de construction en deux minutes. Lajoie Construction vous rappelle. 450 803-6255.">
+<meta property="og:url" content="https://lajoieconstruction.com/soumission.html">
+<meta property="og:image" content="https://lajoieconstruction.com/img/og-lajoie.jpg">
+<meta name="theme-color" content="#161616">
+<link rel="icon" href="img/favicon.png" type="image/png">
+<link rel="preload" href="fonts/archivo.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/site.css">
+<script>document.documentElement.classList.replace('no-js','js')</script>
+
+</head>
+<body>
+<a class="skip" href="#contenu">Aller au contenu</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="Lajoie Construction, accueil">
+      <img src="img/logo-lajoie.png" width="257" height="147" alt="Lajoie Construction inc., entrepreneur général">
+    </a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav class="nav" id="nav" aria-label="Navigation principale">
+      <a href="residentiel.html">Résidentiel</a><a href="commercial.html">Commercial</a><a href="realisations.html">Réalisations</a>
+      <a class="tel" href="tel:+14508036255">450 803-6255</a>
+      <a class="btn btn--hat" href="soumission.html" aria-current="page">Soumission gratuite</a>
+    </nav>
+  </div>
+</header>
+<main id="contenu">
+
+<section class="page-head">
+  <div class="wrap">
+    <p class="mono kicker">Estimation gratuite</p>
+    <h1>Demander une soumission</h1>
+    <span class="cordeau" aria-hidden="true"></span>
+    <p class="lede">Deux minutes pour décrire le projet. Lajoie vous rappelle pour en discuter.</p>
+  </div>
+</section>
+<section class="section section--tight">
+  <div class="wrap form-grid">
+    <div class="carnet">
+      <div class="carnet__head mono"><span>Demande de soumission</span><span>Lajoie Construction inc.</span></div>
+      <!-- À FOURNIR : point de réception du formulaire (Formspree, Netlify Forms ou script serveur). Mettre l'URL dans data-endpoint.
+           Tant que data-endpoint est vide, le formulaire prépare un courriel vers admin@lajoieconstruction.com. -->
+      <form id="soumission" novalidate data-endpoint="" data-mailto="admin@lajoieconstruction.com">
+        <fieldset>
+          <legend>Type de projet <span class="req">*</span></legend>
+          <div class="choices">
+            <label class="choice"><input type="radio" name="type" value="Résidentiel" checked><span>Résidentiel</span></label>
+            <label class="choice"><input type="radio" name="type" value="Commercial"><span>Commercial</span></label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Travaux visés <span class="hint">Cochez tout ce qui s'applique.</span></legend>
+          <div class="choices">
+            <label class="choice"><input type="checkbox" name="travaux" value="Cuisine"><span>Cuisine</span></label><label class="choice"><input type="checkbox" name="travaux" value="Salle de bain"><span>Salle de bain</span></label><label class="choice"><input type="checkbox" name="travaux" value="Sous-sol"><span>Sous-sol</span></label><label class="choice"><input type="checkbox" name="travaux" value="Agrandissement"><span>Agrandissement</span></label><label class="choice"><input type="checkbox" name="travaux" value="Ajout d'étage"><span>Ajout d'étage</span></label><label class="choice"><input type="checkbox" name="travaux" value="Garage"><span>Garage</span></label><label class="choice"><input type="checkbox" name="travaux" value="Terrasse ou patio"><span>Terrasse ou patio</span></label><label class="choice"><input type="checkbox" name="travaux" value="Toiture"><span>Toiture</span></label><label class="choice"><input type="checkbox" name="travaux" value="Revêtement extérieur"><span>Revêtement extérieur</span></label><label class="choice"><input type="checkbox" name="travaux" value="Local commercial"><span>Local commercial</span></label><label class="choice"><input type="checkbox" name="travaux" value="Immeuble locatif"><span>Immeuble locatif</span></label><label class="choice"><input type="checkbox" name="travaux" value="Autre"><span>Autre</span></label>
+          </div>
+        </fieldset>
+        <div class="field" data-field="description">
+          <label for="f-desc">Décrivez le projet <span class="req">*</span><span class="hint">Ce qui existe, ce que vous voulez, ce qui vous inquiète.</span></label>
+          <textarea id="f-desc" name="description" required minlength="15" aria-describedby="e-desc"></textarea>
+          <span class="err" id="e-desc" aria-live="polite"></span>
+        </div>
+        <div class="two">
+          <div class="field">
+            <label for="f-ville">Ville du projet</label>
+            <input id="f-ville" name="ville" autocomplete="address-level2" placeholder="Ex. Joliette">
+          </div>
+          <div class="field">
+            <label for="f-delai">Début souhaité</label>
+            <select id="f-delai" name="delai">
+              <option>Dès que possible</option><option>D'ici 3 mois</option><option>Dans 3 à 6 mois</option><option>Dans plus de 6 mois</option><option selected>Je ne sais pas encore</option>
+            </select>
+          </div>
+        </div>
+        <div class="two">
+          <div class="field" data-field="nom">
+            <label for="f-nom">Votre nom <span class="req">*</span></label>
+            <input id="f-nom" name="nom" required autocomplete="name" aria-describedby="e-nom">
+            <span class="err" id="e-nom" aria-live="polite"></span>
+          </div>
+          <div class="field" data-field="tel">
+            <label for="f-tel">Téléphone <span class="req">*</span></label>
+            <input id="f-tel" name="tel" type="tel" required autocomplete="tel" inputmode="tel" aria-describedby="e-tel" placeholder="450 555-1234">
+            <span class="err" id="e-tel" aria-live="polite"></span>
+          </div>
+        </div>
+        <div class="field" data-field="courriel">
+          <label for="f-mail">Courriel <span class="hint">Facultatif, pour recevoir la soumission par écrit.</span></label>
+          <input id="f-mail" name="courriel" type="email" autocomplete="email" aria-describedby="e-mail">
+          <span class="err" id="e-mail" aria-live="polite"></span>
+        </div>
+        <div class="form-actions">
+          <button class="btn btn--hat" type="submit">Envoyer la demande <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M4 12h15M13 6l6 6-6 6"/></svg></button>
+          <span class="mono muted">* champs obligatoires</span>
+        </div>
+        <div class="status status--ok" role="status" hidden data-status="ok" tabindex="-1">
+          <h3>Votre demande est prête</h3>
+          <p data-ok-msg>Votre logiciel de courriel s'ouvre avec la demande déjà écrite. Il reste à appuyer sur Envoyer.</p>
+          <pre data-summary></pre>
+          <div class="form-actions">
+            <a class="btn btn--dark" data-mailto-link href="mailto:admin@lajoieconstruction.com">Ouvrir le courriel</a>
+            <button class="btn btn--line" type="button" data-copy>Copier le résumé</button>
+            <a class="btn btn--line" href="tel:+14508036255"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2"/></svg>Appeler plutôt</a>
+          </div>
+        </div>
+        <div class="status status--err" role="alert" hidden data-status="err" tabindex="-1">
+          <h3>L'envoi n'a pas fonctionné</h3>
+          <p>Rien n'est perdu : vos réponses sont encore dans le formulaire. Réessayez ou appelez au <a href="tel:+14508036255">450 803-6255</a>.</p>
+        </div>
+      </form>
+    </div>
+    <aside>
+      <div class="side-card">
+        <h2>Plus rapide : appelez</h2>
+        <a class="bigtel" href="tel:+14508036255">450 803-6255</a>
+        <p class="muted" style="margin-top:var(--s-3)">Tous les jours, 9 h à 21 h.<br>Demandez Stéphane Lajoie.</p>
+      </div>
+      <div class="side-card">
+        <h2>Des photos?</h2>
+        <p>Envoyez-les par courriel à <a href="mailto:admin@lajoieconstruction.com">admin@lajoieconstruction.com</a> ou par Messenger sur la <a href="https://www.facebook.com/profile.php?id=100063725343132" rel="noopener">page Facebook</a>.</p>
+      </div>
+      <div class="side-card">
+        <h2>Adresse</h2>
+        <p style="margin:0"><a href="https://www.google.com/maps/search/?api=1&query=952+boul.+Manseau+Joliette+QC+J6E+3G5" rel="noopener">952, boul. Manseau<br>Joliette (Québec) J6E 3G5</a></p>
+        <p class="mono muted" style="margin:var(--s-3) 0 0">RBQ 5704-0925-01 · Membre APCHQ</p>
+      </div>
+    </aside>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer on-dark">
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <a class="foot-logo" href="index.html"><img src="img/logo-lajoie.png" width="257" height="147" alt="Lajoie Construction inc." loading="lazy"></a>
+        <p style="font-size:var(--t-sm)">Entrepreneur général en rénovation et construction, résidentiel et commercial. Joliette et environs, Lanaudière.</p>
+      </div>
+      <div>
+        <h2>Nous joindre</h2>
+        <ul>
+          <li><a href="tel:+14508036255">450 803-6255</a></li>
+          <li><a href="mailto:admin@lajoieconstruction.com">admin@lajoieconstruction.com</a></li>
+          <!-- À VALIDER : heures (fiche 411 Habitation : 7 jours, 9 h à 21 h) -->
+          <li>Tous les jours, 9 h à 21 h</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Adresse</h2>
+        <ul>
+          <li><a href="https://www.google.com/maps/search/?api=1&query=952+boul.+Manseau+Joliette+QC+J6E+3G5" rel="noopener">952, boul. Manseau<br>Joliette (Québec) J6E 3G5</a></li>
+          <!-- À VALIDER : adresse commerciale de Repentigny (fiche Pages Jaunes : 45, boul. Brien) -->
+        </ul>
+      </div>
+      <div>
+        <h2>Le site</h2>
+        <ul>
+          <li><a href="residentiel.html">Résidentiel</a></li>
+          <li><a href="commercial.html">Commercial</a></li>
+          <li><a href="realisations.html">Réalisations</a></li>
+          <li><a href="soumission.html">Demander une soumission</a></li>
+          <li><a href="https://www.facebook.com/profile.php?id=100063725343132" rel="noopener">Page Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-base">
+      <span>© 2026 Lajoie Construction inc. · Licence RBQ 5704-0925-01 · Membre de l'APCHQ</span>
+      <span>Site réalisé par ORAVY</span>
+    </div>
+  </div>
+</footer>
+<div class="action-bar" aria-label="Actions rapides">
+  <a class="btn btn--line" href="tel:+14508036255"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2"/></svg>Appeler</a>
+  <a class="btn btn--hat" href="soumission.html">Soumission gratuite</a>
+</div>
+<script src="js/site.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lajoieconstruction.com/sitemap.xml
